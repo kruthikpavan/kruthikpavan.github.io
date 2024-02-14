@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>My Portfolio</title>
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+      <link rel="icon" href="favicon.ico" type="image/x-icon" />
+      <link
+         href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+         rel="stylesheet"
+      />
+      <link
+         rel="stylesheet"
+         href="libs/font-awesome/css/font-awesome.min.css"
+      />
+      <link href="css/bootstrap.min.css" rel="stylesheet" />
+      <link href="css/styles.css" rel="stylesheet" />
+   </head>
+
+   <body>
+      <div id="mobile-menu-open" class="shadow-large">
+         <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+      <!-- End #mobile-menu-toggle -->
+      <header>
+         <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+         </div>
+         <ul id="menu" class="shadow">
+            <li>
+               <a href="#about">About</a>
+            </li>
+            <li>
+               <a href="#experience">Experience</a>
+            </li>
+            <li>
+               <a href="#education">Education</a>
+            </li>
+            <li>
+               <a href="#projects">Projects</a>
+            </li>
+            <li>
+               <a href="#skills">Skills</a>
+            </li>
+            <li>
+               <a href="#contact">Contact</a>
+            </li>
+         </ul>
+      </header>
+      <!-- End header -->
+
+      <div id="lead">
+         <div id="lead-content">
+            <h1>Pavan Kruthik</h1>
+            <h2>Software Engineer</h2>
+            <a
+               onclick="window.location.href='resume/resume.docx'"
+               class="btn-rounded-white"
+               >Download Resume</a
+            >
+         </div>
+         <!-- End #lead-content -->
+
+         <div id="lead-overlay"></div>
+
+         <div id="lead-down">
+            <span>
+               <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+         </div>
+         <!-- End #lead-down -->
+      </div>
+      <!-- End #lead -->
+
+      <div id="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <h2 class="heading">About Me</h2>
+               </div>
+               <div class="col-md-8">
+                  <p>
+                     Hello! I'm Pavan, a budding software engineer with a fresh
+                     perspective and six months of hands-on experience in the
+                     field. In my short but dynamic career, I've had the
+                     opportunity to dive headfirst into various aspects of
+                     software development, honing my skills in backend
+                     development using Java Spring Boot, version control with
+                     Git, and front-end development with JavaScript and React.
+                     Working primarily as a backend developer, I've gained
+                     valuable experience in designing and implementing robust
+                     and scalable solutions using Java Spring Boot. From
+                     building RESTful APIs to integrating with databases and
+                     ensuring optimal performance, I'm passionate about crafting
+                     efficient and reliable backend systems that form the
+                     backbone of modern applications.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- End #about -->
+
+      <div id="experience" class="background-alt">
+         <h2 class="heading">Experience</h2>
+         <div id="experience-timeline">
+            <div data-date="January 2022 – June 2022">
+               <h3>General Electric</h3>
+               <h4>Software Engineering Intern</h4>
+               <p>
+                  I was part of the algorithm team, a pivotal unit within the
+                  modeling platform where I contributed significantly to its
+                  functionality and overall performance. Our approach was
+                  dynamic, grounded in agile methodologies. This meant actively
+                  engaging in PI planning events, ensuring our work aligned
+                  seamlessly with project goals and timelines. My day-to-day
+                  involved diving into user stories, understanding their needs,
+                  and translating them into actionable solutions. With a focus
+                  on Java technology stack, I worked on crafting robust
+                  functionalities and features. Testing was a crucial part of
+                  our process, where I utilized JUnit to ensure the reliability
+                  and stability of our codebase.
+               </p>
+            </div>
+         </div>
+      </div>
+      <!-- End #experience -->
+
+      <div id="education">
+         <h2 class="heading">Education</h2>
+         <div class="education-block">
+            <h3>Stevens Institute of Technology</h3>
+            <span class="education-date"> September 2022 - May 2024</span>
+            <h4>Masters of Science in Computer Science</h4>
+            <p>
+               During my time at Stevens Institute of Technology, I immersed
+               myself in the dynamic world of computer science. From mastering
+               complex algorithms to exploring cutting-edge technologies, every
+               moment was a step towards becoming a proficient software
+               engineer.
+            </p>
+         </div>
+         <!-- End .education-block -->
+
+         <div class="education-block">
+            <h3>Amritha Vishwa Vidyapeetham</h3>
+            <span class="education-date">June 2018 - July 2022</span>
+            <h4>Bachelor of Science in Computer Science and Engineering</h4>
+            <p>
+               During my time at Amritha Vishwa Vidyapeetham, I delved into the
+               world of computer science, learning everything from the basics to
+               more advanced topics. Working with classmates on projects helped
+               me understand things better and gave me practical skills I can
+               use in the real world.
+            </p>
+         </div>
+         <!-- End .education-block -->
+      </div>
+      <!-- End #education -->
+
+      <div id="projects" class="background-alt">
+         <h2 class="heading">Projects</h2>
+         <div class="container">
+            <div class="row">
+               <div class="project shadow-large">
+                  <div class="project-image">
+                     <img src="images/doctor.jpg" />
+                  </div>
+                  <!-- End .project-image -->
+                  <div class="project-info">
+                     <h3>Doctor Appointment Booking System</h3>
+                     <p>
+                        I crafted a practical doctor-appointment booking system
+                        using HTML, CSS, Bootstrap, Express, Node.js, and
+                        MongoDB. I made sure to include a nifty review system so
+                        patients could share their thoughts on the doctors. With
+                        a simple layout allowing users to view profiles, keep
+                        tabs on appointments, and easily search for doctors by
+                        name or expertise, the whole booking process became a
+                        breeze. The aim? Smooth doctor-patient interactions and
+                        happier patients all around.
+                     </p>
+                     <a
+                        href="https://github.com/kruthikpavan/Doctor-Appointment-Booking-System"
+                        >View Project</a
+                     >
+                  </div>
+                  <!-- End .project-info -->
+               </div>
+               <!-- End .project -->
+
+               <div class="project shadow-large">
+                  <div class="project-image">
+                     <img src="images/covid.jpg" />
+                  </div>
+                  <!-- End .project-image -->
+                  <div class="project-info">
+                     <h3>Covid Prediction based on Comorbidities</h3>
+                     <p>
+                        I created a tool to help patients gauge their risk of
+                        contracting the virus based on factors like asthma,
+                        diabetes, and pregnancy. Using Streamlit for the user
+                        interface and MySQL for the database, I kept things
+                        simple and effective. In the backend, Python Jupyter
+                        Notebook worked its magic, employing advanced feature
+                        selection techniques and sampling methods. The result? A
+                        highly accurate predictive model boasting a 95% accuracy
+                        rate and slashing false positives in half.
+                     </p>
+                  </div>
+                  <!-- End .project-info -->
+               </div>
+               <!-- End .project -->
+            </div>
+         </div>
+      </div>
+      <!-- End #projects -->
+
+      <div id="skills">
+         <h2 class="heading">Skills</h2>
+         <ul>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Node.js</li>
+            <li>React Js</li>
+            <li>C</li>
+         </ul>
+      </div>
+      <!-- End #skills -->
+
+      <div id="contact">
+         <h2>Get in Touch</h2>
+         <div id="contact-form">
+            <form method="POST" action="https://formspree.io/f/xnqedpej">
+               <input
+                  type="hidden"
+                  name="_subject"
+                  value="Contact request from personal website"
+               />
+               <input
+                  type="email"
+                  name="_replyto"
+                  placeholder="Your email"
+                  required
+               />
+               <textarea
+                  name="message"
+                  placeholder="Your message"
+                  required
+               ></textarea>
+               <button type="submit">Send</button>
+            </form>
+         </div>
+         <!-- End #contact-form -->
+      </div>
+      <!-- End #contact -->
+
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-5 copyright">
+                  <p>Feel free to ping me at kruthikpavan24@gmail.com</p>
+               </div>
+               <div class="col-sm-2 top">
+                  <span id="to-top">
+                     <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                  </span>
+               </div>
+               <div class="col-sm-5 social">
+                  <ul>
+                     <li>
+                        <a
+                           href="https://github.com/kruthikpavan"
+                           target="_blank"
+                           ><i class="fa fa-github" aria-hidden="true"></i
+                        ></a>
+                     </li>
+
+                     <li>
+                        <a
+                           href="https://www.linkedin.com/in/pavan-kruthik-nagaram-bbab95214/"
+                           target="_blank"
+                           ><i class="fa fa-linkedin" aria-hidden="true"></i
+                        ></a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- End footer -->
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="js/scripts.min.js"></script>
+   </body>
+</html>
